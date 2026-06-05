@@ -1,0 +1,17 @@
+{
+  "name": "discord-ticket-mod-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with ticket system, moderation, anti-spam, invite blocking, and web dashboard.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "latest",
+    "discord-api-types": "latest",
+    "discord.js": "latest",
+    "dotenv": "latest",
+    "express": "latest"
+  }
+}
